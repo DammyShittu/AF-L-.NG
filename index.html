@@ -170,7 +170,10 @@
                           </div>
                           <div class="col-md-8">
                             <div class="row">
-                              <form id="contact" action="" method="post">
+                              <form id="contact" name="contact" method="POST" data-netlify="true">
+                                <p class="hidden">
+                                  <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                                </p>
                                 <div class="col-md-6">
                                   <fieldset>
                                     <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
