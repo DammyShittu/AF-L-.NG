@@ -126,11 +126,11 @@ p {
 
 .cd-slider-nav .image-icon {
   margin: 0 auto;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   display: block;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
   border-radius: 50%;
   text-align: center;
   margin: 0px;
@@ -185,7 +185,7 @@ footer {
 }
 
 .heading img {
-  
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -480,22 +480,15 @@ footer {
 }
 
 footer p {
-  font-size: 14px;
+  font-size: 15px;
   color: #000;
   margin: 0px;
   padding: 15px 0px;
   text-align: center;
   font-weight: 600;
+  letter-spacing: 1.5px;
 }
 
-footer p em {
-  font-style: normal;
-  font-weight: 500;
-}
-
-footer a {
-	color: #343434;
-}
 
 /*
 ========================================
@@ -506,8 +499,8 @@ footer a {
 
 @media(min-width: 1200px) {
   .heading img {
-    width: 25%;
-    margin-top: 30px;
+    width: 23%;
+    margin-top: 25px;
   }
 }
 
